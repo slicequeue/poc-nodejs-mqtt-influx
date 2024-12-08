@@ -75,6 +75,7 @@ IoT 디바이스에서 전송하는 JSON 메시지의 예시는 다음과 같습
    - 실시간 데이터 수신 및 저장에 성공.
    - InfluxDB의 타임 시리즈 데이터 관리 기능 확인.
    - Node.js 기반의 데이터 처리 구조 검증.
+![image](https://github.com/user-attachments/assets/9b14ce80-942b-4a97-b5da-67ae4a1dc33d)
 
 ---
 
