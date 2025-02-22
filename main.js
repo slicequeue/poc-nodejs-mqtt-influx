@@ -49,7 +49,7 @@ mqttClient.on('connect', () => {
       writeApi.writePoint(point);
   
       // 쓰기 완료 후 로그 (writePoint는 Promise를 반환하지 않으므로, 직접 성공 로그를 추가)
-      console.log(`Data written successfully for UID: ${sensorData.uid}`);
+      console.log(`[${(new Date()).toISOString()}] Data written successfully for UID: ${sensorData.uid}`);
     } catch (err) {
       console.error('Error message:', err.message);
     }
